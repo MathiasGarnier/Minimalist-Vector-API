@@ -1,6 +1,6 @@
 {
   "name": "Minimalist Vector API",
   "tagline": "",
-  "body": "```c\r\nint main() {\r\n\r\n    Vector                    v;\r\n\r\n    v.length            =     8;\r\n    v.direction[0]      =   'A';\r\n    v.direction[1]      =   'B';\r\n    v.way[0]            =   'A';\r\n    v.way[1]            =   'B';\r\n\r\n    Vector                   v1;\r\n\r\n    v1.length           =     8;\r\n    v1.direction[0]     =   'A';\r\n    v1.direction[1]     =   'B';\r\n    v1.way[0]           =   'A';\r\n    v1.way[1]           =   'B';\r\n\r\n    vectorCompare(v, v1);\r\n\r\n    //YOLO PATE A L'EAU\r\n    return 0;\r\n}\r\n```",
+  "body": "```c\r\n//Don't forget \"include \"nameYouGaveHim.h\" ^^'.\r\n\r\nint main() {\r\n\r\n    Vector                    v;\r\n\r\n    v.length            =     8;\r\n    v.direction[0]      =   'A';\r\n    v.direction[1]      =   'B';\r\n    v.way[0]            =   'A';\r\n    v.way[1]            =   'B';\r\n\r\n    Vector                   v1;\r\n\r\n    v1.length           =     8;\r\n    v1.direction[0]     =   'A';\r\n    v1.direction[1]     =   'B';\r\n    v1.way[0]           =   'A';\r\n    v1.way[1]           =   'B';\r\n\r\n    vectorCompare(v, v1);\r\n\r\n    //YOLO PATE A L'EAU\r\n    return 0;\r\n}\r\n```",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
