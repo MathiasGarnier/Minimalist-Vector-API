@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Minimalist Vector API by MathiasGarnier</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/MathiasGarnier/Minimalist-Vector-API">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Minimalist Vector API</h1>
+            <h2></h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/MathiasGarnier/Minimalist-Vector-API/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/MathiasGarnier/Minimalist-Vector-API/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <div class="highlight highlight-source-c"><pre><span class="pl-k">int</span> <span class="pl-en">main</span>() {
+
+    Vector                    v;
+
+    v.<span class="pl-smi">length</span>            =     <span class="pl-c1">8</span>;
+    v.<span class="pl-smi">direction</span>[<span class="pl-c1">0</span>]      =   <span class="pl-s"><span class="pl-pds">'</span>A<span class="pl-pds">'</span></span>;
+    v.<span class="pl-smi">direction</span>[<span class="pl-c1">1</span>]      =   <span class="pl-s"><span class="pl-pds">'</span>B<span class="pl-pds">'</span></span>;
+    v.<span class="pl-smi">way</span>[<span class="pl-c1">0</span>]            =   <span class="pl-s"><span class="pl-pds">'</span>A<span class="pl-pds">'</span></span>;
+    v.<span class="pl-smi">way</span>[<span class="pl-c1">1</span>]            =   <span class="pl-s"><span class="pl-pds">'</span>B<span class="pl-pds">'</span></span>;
+
+    Vector                   v1;
+
+    v1.<span class="pl-smi">length</span>           =     <span class="pl-c1">8</span>;
+    v1.<span class="pl-smi">direction</span>[<span class="pl-c1">0</span>]     =   <span class="pl-s"><span class="pl-pds">'</span>A<span class="pl-pds">'</span></span>;
+    v1.<span class="pl-smi">direction</span>[<span class="pl-c1">1</span>]     =   <span class="pl-s"><span class="pl-pds">'</span>B<span class="pl-pds">'</span></span>;
+    v1.<span class="pl-smi">way</span>[<span class="pl-c1">0</span>]           =   <span class="pl-s"><span class="pl-pds">'</span>A<span class="pl-pds">'</span></span>;
+    v1.<span class="pl-smi">way</span>[<span class="pl-c1">1</span>]           =   <span class="pl-s"><span class="pl-pds">'</span>B<span class="pl-pds">'</span></span>;
+
+    <span class="pl-c1">vectorCompare</span>(v, v1);
+
+    <span class="pl-c">//YOLO PATE A L'EAU</span>
+    <span class="pl-k">return</span> <span class="pl-c1">0</span>;
+}</pre></div>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/MathiasGarnier">MathiasGarnier</a> can be found on <a href="https://github.com/MathiasGarnier/Minimalist-Vector-API">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
