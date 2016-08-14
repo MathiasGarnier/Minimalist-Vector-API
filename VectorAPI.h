@@ -1,6 +1,8 @@
 #ifndef VECTORAPI_H_INCLUDED
 #define VECTORAPI_H_INCLUDED
 
+/* @TODO Make 2D grid */
+
 typedef struct      Vector Vector;
 
 struct Vector {
